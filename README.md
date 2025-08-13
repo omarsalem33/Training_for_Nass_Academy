@@ -1,63 +1,97 @@
 # Training for Nass Academy
 
-Welcome to the **Training for Nass Academy** repository—your hands-on journey through daily web development lessons and a culminating project.
+Welcome to the **Training for Nass Academy** repository — a collection of daily exercises and a final project completed during my training program at Nass Academy.  
+This repository showcases my progress in **HTML**, **CSS**, **JavaScript**, and related web technologies.
 
 ---
 
-##  Table of Contents
+## 📂 Repository Structure
 
-- [About This Repository](#about-this-repository)  
-- [Daily Lessons (Day 1–8)](#daily-lessons-day-1–8)  
-- [Final Project](#final-project)  
-- [Technologies Used](#technologies-used)  
-- [How to Use This Repository](#how-to-use-this-repository)  
-- [Getting Started](#getting-started)  
-- [Contact](#contact)  
-- [License](#license) *(optional)*  
-
----
-
-## About This Repository
-
-This repository houses my daily training assignments from Nass Academy, spanning **Day 1 through Day 8**, followed by a **final project**. Each day’s folder contains exercises and examples building foundational skills in web development, including HTML, CSS (SCSS, Less), and JavaScript.
-
----
-
-## Daily Lessons (Day 1–8)
-
-Each `DayX/` folder contains structured learning materials:
-
-- **Day 1**: Basics of HTML structure, tags, and page layout  
-- **Day 2**: CSS fundamentals—selectors, properties, styling basics  
-- **Day 3**: Responsive design and CSS media queries  
-- **Day 4**: Advanced CSS techniques using SCSS / Less  
-- **Day 5**: JavaScript fundamentals—variables, functions, DOM manipulation  
-- **Day 6**: Event handling, interactivity, and dynamic updates  
-- **Day 7**: UI upgrades with external libraries (e.g., Font Awesome)  
-- **Day 8**: Integration of complex layouts, interactivity enhancements  
-
-*(Note: Adjust each bullet based on the actual topics covered—this is a placeholder.)*
+```
+Training_for_Nass_Academy/
+│
+├── Day1/        # Introduction to HTML basics
+├── Day2/        # CSS fundamentals & styling
+├── Day3/        # Responsive design & media queries
+├── Day4/        # Advanced CSS with SCSS & Less
+├── Day5/        # JavaScript basics
+├── Day6/        # DOM manipulation & event handling
+├── Day7/        # UI enhancement with external libraries
+├── Day8/        # Final lesson before project
+└── Project/     # Final web development project
+```
 
 ---
 
-## Final Project
+## 📖 About This Repository
 
-The `Project/` folder includes a complete web project combining the skills acquired over the previous lessons, with well-organized assets (HTML, CSS/SCSS, JavaScript, and Font Awesome support).
+This repo contains:
 
----
-
-## Technologies Used
-
-- **HTML**
-- **CSS**, **SCSS**, **Less**
-- **JavaScript**
-- **Font Awesome** for icons
-- *(Add more if applicable: e.g., Bootstrap, jQuery, etc.)*
+- **Daily Lessons (Day 1–8):** Step-by-step exercises focusing on different web development concepts.
+- **Final Project:** A fully functional website implementing all concepts learned in the training.
+- Clean, organized HTML, CSS, SCSS, Less, and JavaScript code.
 
 ---
 
-## How to Use This Repository
+## 🛠 Technologies Used
 
-1. Clone the repository to your local machine:  
-   ```bash
-   git clone https://github.com/omarsalem33/Training_for_Nass_Academy.git
+- **HTML5**
+- **CSS3** / **SCSS** / **Less**
+- **JavaScript (ES6+)**
+- **Font Awesome** (icons)
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/omarsalem33/Training_for_Nass_Academy.git
+```
+
+### 2️⃣ Navigate to the Project
+```bash
+cd Training_for_Nass_Academy
+```
+
+### 3️⃣ Open in Browser
+Simply open any `.html` file in your browser, or use a local server:
+```bash
+npx live-server
+```
+
+---
+
+## 📚 Daily Lessons Overview
+
+| Day  | Topics Covered |
+|------|----------------|
+| 1    | HTML structure, headings, paragraphs, links, images |
+| 2    | CSS selectors, colors, fonts, borders, backgrounds |
+| 3    | Responsive design, flexbox, media queries |
+| 4    | SCSS & Less basics, variables, nesting, mixins |
+| 5    | JavaScript basics: variables, functions, operators |
+| 6    | DOM manipulation, events, dynamic content |
+| 7    | Font Awesome integration, advanced CSS |
+| 8    | Website layout final touches before project |
+
+
+---
+
+## 🌟 Final Project
+
+The `Project/` folder contains the **final deliverable**:
+- Responsive layout
+- Styled with CSS/SCSS
+- Interactive elements with JavaScript
+- Icons using Font Awesome
+
+---
+
+## 📬 Contact
+
+**Author:** Omar Salem  
+- GitHub: [@omarsalem33](https://github.com/omarsalem33)  
+- Email: omarsalemabdelrouf@gmail.com 
+
