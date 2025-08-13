@@ -1,0 +1,66 @@
+/* h1{
+    color: yellow;
+    text-align: center;
+
+}
+.container {
+
+    color: blue; 
+    border-color: aqua;
+    border-top-style : solid ;
+    border-bottom-style : solid ;
+    border-left-style : solid ;
+    border-bottom-style : solid ;
+    border-right-style : dashed ;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+#h2 {
+    color: red;
+    text-align: center;
+    background-color: black;
+}
+.pre {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container2 {
+    color: blue; 
+    border-color: aqua;
+    border-top-style : solid ;
+    border-bottom-style : solid ;
+    border-left-style : solid ;
+    border-bottom-style : solid ;
+    border-right-style : dashed ;
+    background-color: lightpink;
+    border-radius: 5px;
+
+    width: 50%;
+    height: 70%;
+
+    background-image: url("battle-black-board-game-chess-411207.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+.container{
+    background-color: lightblue;
+    float: left ;
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+
+    width: 25%;
+
+}
+.fix{
+    clear: both ;
+}
+.container img {
+    width: 100%;
+
+}

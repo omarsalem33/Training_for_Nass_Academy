@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.navbar {
+  width: 100%;
+    height: 60px;
+  background-color: #111;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  float: left;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 40px;
+ 
+}
+
+.logo span {
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+
+.menu {
+  float: right;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.menu li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px;
+
+}
+
+.header {
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  padding-top: 60px;
+}
+
+.header-content {
+  width: 600px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -300px;
+  text-align: center;
+
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.header-content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn1 {
+  background-color: #8e7754;
+  color: white;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.location {
+
+    width: 90%;
+    margin: auto;
+}
+.location-text {
+ 
+ width: 40%;
+ margin-top: 50px;
+ padding: 30px;
+ float: left;
+}
+.location-img{
+ background-color: lightgreen;
+  width: 40%;
+   margin-top: 50px;
+   margin-left: 50px;
+ float: left;   
+
+}
+.location-img img {
+  width: 100%;
+  
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.bakery-img {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 500px;
+  height: auto;
+}
+
+.text-box {
+  position: absolute;
+  top: 50px;
+  left: 650px;
+  width: 500px;
+}
+
+.text-box h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.text-box p {
+  font-size: 16px;
+  color: #555;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.features li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #222;
+}

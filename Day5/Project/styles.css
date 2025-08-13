@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(230, 230, 205);
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.navbar {
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: whitesmoke;
+  color: royalblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+}
+
+.logo img {
+  width: 30%;
+  margin: 20px;
+}
+.nav-links {
+  width: 70%;
+  float: left;
+  text-align: center;
+  margin:20px;
+}
+
+.nav-links ul {
+  list-style-type: none;
+}
+
+.nav-links ul li {
+  display: inline;
+  padding-left: 15px;
+}
+
+.nav-links ul li  a {
+  text-decoration: none;
+
+}
+.nav-links ul li:hover a{
+  color: #ea2a48;
+
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+
+}
+
+ .image{
+  width: 25%;
+  float: left;
+
+}
+.image img{
+  width: 100%;
+  display: block;
+}
+.clear-fix{
+  clear: both;
+}
+.container{
+  width: 90%;
+  margin: 50px auto;
+
+}
+.team{
+  width: 100%;
+  text-align: center;
+  margin: 60px 0px;
+}
+.team-item{
+  display: inline;
+  float: left;
+  background-color: #ea2a49;
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+}
+
+.team-item img{
+  width: 100%;
+  display: block;
+  transition: transform 1s 1s;
+
+}
+.team-caption{
+  background-color: rgba(17, 17, 17, 0.4);
+  color: #f6f2EA;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s , transform 1s;
+
+}
+.team-item:hover .team-caption{
+  opacity: 1;
+  transform: rotate(360deg);
+}
+.team-item:hover img{
+  transform: scale(1.1,1.1);
+}
+.team-caption h2{
+  padding: 10px;
+  background-color: #161A28;
+  transform: translateX(120%);
+  transition: transform 1s 2s;
+}
+.team-caption p{
+  font-size: 24px;
+  color: #f6f2EA;
+  transform: translateX(120%);
+}
+.team-item:hover h2, .team-item:hover p{
+  transform: translateX(0);
+}
+.back{
+  background-image: url("images/dina-seafood-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  height: 400px;
+  width: 90%;
+  margin: 70px auto;
+  background-attachment: fixed;
+}
+.back .back-Item{
+  background-color: royalblue;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+   margin:  auto;
+  text-align: center;
+  transform: translatey(-10%);
+  color: white;
+  font-size: 24px;
+
+}
+.blog h5{
+  text-align: center;
+  color:royalblue;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.blog h1{
+  text-align: center;
+  color:royalblue;
+  font-size: 50px
+}
+.blog h4{
+  color: #ea2a49;
+  font-size: 20px;
+  margin: 10px 0px;
+  font-weight: normal;
+}
+.blog h3{
+  color: royalblue;
+  font-size: 30px;
+  margin: 10px 0px;
+  font-weight: bold ;
+}
+.blog{
+ margin: 40px 0px;
+}
+
+.blog-item{
+  width: 33.33%;
+  text-align: center;
+  float: left;
+  padding: 20px;
+}
+.blog-item p{
+ color: rgb(4, 4, 48);
+  text-align: left;
+  line-height: 30px;
+}
+.blog-item img{
+  width: 100%;
+
+}
+.blog-item h4:hover{
+  text-decoration: underline;
+  transition: all 1s;
+}
+.blog-item h3:hover{
+  color: tomato;
+  transition: all 1s;
+}
+.blog-item button{
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ea2a49;
+  background-color: transparent;
+  color: #ea2a49;
+}
+.blog-item button:hover{
+  background-color: #ea2a49;
+  color: white;
+  transition: all 1s;
+}
+.menu h6{
+  width: 100%;
+  color: royalblue;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 17px;
+  margin: auto;
+}
+.menu h1{
+  width: 100%;
+  color: rgb(14, 66, 225);
+  text-align: center;
+  font-size: 70px;
+  margin: 20px auto;
+}
+
+.menu .card h5{
+ margin: auto;
+ color: rgb(14, 66, 225);
+  font-size: 20px ;
+  font-style: bold ;
+  margin: 10px auto;
+}
+.menu .card span{
+ color: #ea2a49;
+}
+.card{
+  padding: 20px;
+  text-align: center;
+  color: royalblue;
+  width: 33.33%;
+  float: left
+}
+
+.contact{
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 10px auto;
+  
+}
+.contact1 {
+  width: 50%;
+  float: left;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(14, 66, 225);;
+}
+.contact1 h4 {
+  color:#f6f2EA;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
