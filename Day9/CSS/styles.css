@@ -137,26 +137,41 @@ header{
   margin: 10px;
 }
 
-
-.gallery{
-  background-color: #EEEEEE;
-  padding: 20px 0px;
-
+.gallery-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "pizza1 steak burger"
+    "pizza2 steak cheken"
+    "pizza2 steak kabab"
+    "pizza2 omelete kabab"
+    ". omelete .";
+  gap: 10px;
 }
 
-.gallery-items{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 20px;
-  height: 1300px;
-}
-.gallery-image{
-  width: calc(calc(100% - 40px) / 3);
+
+.child1 { grid-area: pizza1; }
+.child2 { grid-area: steak; } 
+.child3 { grid-area: pizza2; } 
+.child4 { grid-area: burger ; } 
+.child5 { grid-area: cheken; }
+.child6 { grid-area: kabab; }
+.child7 { grid-area: omelete; }
+
+
+.gallery-image {
   position: relative;
-  overflow: hidden ;
-  border: 4px solid white;
+  overflow: hidden;
+  border-radius: 8px;
 }
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .gallery-image img{
   width: 100%;
   display: block;
