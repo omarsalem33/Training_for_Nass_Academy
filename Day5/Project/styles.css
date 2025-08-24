@@ -157,6 +157,41 @@ body {
   font-size: 24px;
 
 }
+  .menu h6{
+    width: 100%;
+    color: royalblue;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+  }
+  .menu h1{
+    width: 100%;
+    color: rgb(14, 66, 225);
+    text-align: center;
+    font-size: 70px;
+    margin: 20px auto;
+  }
+
+  .menu .card h5{
+  margin: auto;
+  color: rgb(14, 66, 225);
+    font-size: 20px ;
+    font-style: bold ;
+    margin: 10px auto;
+  }
+  .menu .card span{
+  color: #ea2a49;
+  }
+  .card{
+    padding: 20px;
+    text-align: center;
+    color: royalblue;
+    width: 33.33%;
+    float: left
+  }
+
+
 .blog h5{
   text-align: center;
   color:royalblue;
@@ -219,39 +254,6 @@ body {
   background-color: #ea2a49;
   color: white;
   transition: all 1s;
-}
-.menu h6{
-  width: 100%;
-  color: royalblue;
-  text-decoration: underline;
-  text-align: center;
-  font-size: 17px;
-  margin: auto;
-}
-.menu h1{
-  width: 100%;
-  color: rgb(14, 66, 225);
-  text-align: center;
-  font-size: 70px;
-  margin: 20px auto;
-}
-
-.menu .card h5{
- margin: auto;
- color: rgb(14, 66, 225);
-  font-size: 20px ;
-  font-style: bold ;
-  margin: 10px auto;
-}
-.menu .card span{
- color: #ea2a49;
-}
-.card{
-  padding: 20px;
-  text-align: center;
-  color: royalblue;
-  width: 33.33%;
-  float: left
 }
 
 .contact{
