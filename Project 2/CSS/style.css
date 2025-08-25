@@ -1,0 +1,494 @@
+body{
+  background-color: #f5f5f5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-item .nav-link {
+    color:#ffffff!important;
+    font-family: system-ui, "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size:16px !important;
+    font-weight:600 !important ;
+    padding: 10px;
+    border-bottom: 2px solid transparent !important;
+    transition:  border-bottom 1s;
+   
+}
+.navbar-brand{
+    color:#ffffff!important;
+    font-family: system-ui, "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size:24px !important;
+    font-weight:600 !important ;
+}
+.dropdown-menu a{
+    color:black !important;
+    font-family: system-ui, "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size:16px !important;
+    font-weight:600 !important ;
+    padding: 20px;
+}
+.nav-item :hover{
+  border-bottom: 3px solid  #fff !important;
+}
+.nav-item .active{
+  border-bottom: 3px solid  #fff !important;
+}
+header {
+    background-image: url("../images/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center ;
+    width: 100%;
+  }
+
+  .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-caption {
+    text-align: center;
+  }
+  .header-caption p {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 40px;
+    font-weight:600;
+    color: #ffffff;
+    
+  }
+  .header-caption h2{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 72px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .header-caption p::after{
+    content: '';
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes typing {
+    0% {content: ' D|';}
+    5% {content: ' De|';}
+    10% {content: ' Des|';}
+    15% {content: ' Desi|';}
+   20% {content: ' Desig|';}
+    25% {content: ' Design|';}
+    30% {content: ' Designe|';}
+    35% {content: ' Designer|';}
+    40% {content: ' Designe|';}
+    45% {content: ' Designe|';}
+    50% {content: ' Design|';}
+    55% {content: ' Desig|';}
+    60% {content: ' Desi|';}
+    70% {content: ' Des|';}
+    80% {content: ' De|';}
+    90% {content: ' D|';}
+    100% {content: ' |';}
+  }
+  /* ------------------------------------- */
+.about{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+}
+.about-info span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+.about-info p{
+    font-size:16px ;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+.aboutme-text{
+  position: relative;
+}
+
+.aboutme-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+
+.aboutme-text h5{
+    font-size: 32px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+ .aboutme-text h5::after {
+    content: "";
+    width: 90px;
+    height: 4px;
+    background-color: #0078ff;
+    position: absolute;
+    top: 45px;
+    left:0;
+  }
+  .aboutme-text p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #4e4e4e;
+  }
+
+/* ------------------------ */
+.services{
+    position: relative;
+    text-align: center;
+  }
+   .services h3::after {
+    content: "";
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: royalblue;
+    position: absolute;
+    top:100px;
+    left:48%;
+  }
+  .services h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #4e4e4e;
+  }
+  .services p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4e4e;
+  }
+  .fa-briefcase,.fa-chart-simple,.fa-list,.fa-binoculars,.fa-sun,.fa-calendar-week{
+    font-size: 40px;
+    position: relative;
+    top:30px;
+  }
+  .ico-circle{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: background-color 1s ,box-shadow 1s;
+  } 
+.card{
+    width: 20rem;
+}
+ .card:hover  .ico-circle{
+  background-color: #0078ff;
+  box-shadow: 0 0 0 12px #cde1f8;
+}
+/* ---------------------------------------- */
+.Our-Services{
+    height: 400px;
+    background-image: url("../images/images/counters-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    background-position: center center;
+    position: relative;
+    padding: 8rem;
+}
+.Our-Services-layer{
+  position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: royalblue;
+}
+.counter-ico{
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center
+}
+.ico-Our-Services{
+  height: 60px;
+    width: 60px;
+    line-height: 1.5;
+   
+}
+.ico-Our-Services i{
+  width:100px;
+  height: 100px;
+  border:10px solid #cde1f8; 
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  
+  position: relative;
+  top:0px;
+  
+}
+.Our-Services-text .p-ico{
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+.Our-Services-text .pp-ico{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+.counter-box{
+  margin-bottom: 1.8rem;
+}
+/* ----------------------------------------- */
+.portofilo{
+  position: relative;
+  text-align: center;
+}
+.portofilo h3::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: royalblue;
+  position: absolute;
+  top:100px;
+  left:48%;
+
+}
+.portofilo h3{
+  font-size: 48px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+.portofilo p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+.p-title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e1e1e;
+  padding: 10px 0px;
+}
+.card-body span{
+  font-size: 12px;
+  font-weight: 400;
+  color: #4e4e4e;
+  text-align: left;
+}
+.fa-plus{
+    border: 2px solid royalblue;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: royalblue;
+    position: absolute;
+    right:50px;
+    top:20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.scale{
+  overflow: hidden;
+}
+.scale img{
+  width: 100%;
+  transition: 0.5s all ease;
+}
+.scale:hover img {
+  transform: scale(1.4);
+}
+/* ---------------------------------- */
+.blog{
+  position: relative;
+  text-align: center;
+}
+.blog h3::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: #0078ff;
+  position: absolute;
+  top:100px;
+  left:48%;
+
+}
+.blog h3{
+  font-size: 48px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+.blog p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+.blog-item{
+  padding: 0.5rem 1rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.w-15{
+  width:13%;
+}
+.right{
+  position: absolute;
+  right:0px;
+  top:-30px;
+  color:#4e4e4e;
+}
+.fa-clock{
+  position: absolute;
+  right:54px;
+color:#4e4e4e;
+  top:-25px;
+}
+.box-up{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 11.2px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.l-blue:hover{
+  color:#0078ff;
+}
+.line{
+  width:90px;
+  height: 4px;
+  background-color: #0078ff;
+  margin: 10px 0px;
+}
+/* ----------------------------------- */
+.contact{
+  background-image: url("../images/images/overlay-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  
+}
+.contact-layer{
+  background-color: rgba(0, 120, 255,0.5);
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  
+} 
+.contact-space{
+  margin-top: 4rem
+}
+.contact-color{
+  padding:  1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.contact-caption p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #4e4e4e;
+  padding-top: 20px;
+}
+.contact-info span{
+  font-size: 16px;
+  font-weight: 400;
+  color: #4e4e4e;
+  padding: 5px;
+}
+.contact-info i{
+  color:royalblue;
+  font-size: 16px;
+  padding:  10px;
+}
+.contact-icon i{
+  font-size: 19.2px;
+  padding: 10px; 
+  border: 3px solid royalblue;
+  border-radius: 50%;
+  transition: background-color 1s, border 1s ;
+  cursor: pointer;
+
+}
+.contact-icon i:hover{
+  background-color: royalblue;
+  border:3px solid #cde1f8;
+}
+.btn-submit{
+  text-align: center;
+  border: 3px solid royalblue;
+  width: 200px;
+  height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50rem;
+  margin-left: 50px;
+  transition:  background-color 1s,border 1s ;
+}
+.btn-submit:hover{
+  border:3px solid #cde1f8;
+  background-color: #3393ff;
+}
+/* ------------------ */
+.footer-content{
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer-content span{
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+footer{
+  background-color:#3393ff ;
+}
+/* ----------------------- */
+.feedback{
+  background-image: url("../images/images/overlay-bg.jpg") ;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+ .feedback-layer{
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+} 
+
+.feedback-caption .p-feed{
+  font-size: 22.4px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  
+}
+.feedback-caption .p-feed-two{
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius:50% !important;
+}
+.carousel-indicators {
+  bottom: -50px ;
+}
